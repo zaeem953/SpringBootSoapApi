@@ -66,7 +66,7 @@ public class EmployeeEndpoint {
         DeleteEmployeeResponse response=new DeleteEmployeeResponse();
         ServiceStatus serviceStatus=new ServiceStatus();
         serviceStatus.setStatus("SUCCESS");
-        serviceStatus.setMessage("Content Added Seccessfully");
+        serviceStatus.setMessage("Content Deleted Seccessfully");
         response.setServiceStatus(serviceStatus);
         return response;
     }
